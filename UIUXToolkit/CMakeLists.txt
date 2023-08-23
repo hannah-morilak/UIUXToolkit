@@ -3,12 +3,17 @@ set(MODULE_NAME UIUXToolkit)
 
 #-----------------------------------------------------------------------------
 set(MODULE_PYTHON_SCRIPTS
-  ${MODULE_NAME}.py
+  ${MODULE_NAME}Tester.py
+  Widgets/__init__.py
+  Widgets/AnimatedProgressBar.py
+  Widgets/HelpfulLoadingDialog.py
   )
 
 set(MODULE_PYTHON_RESOURCES
   Resources/Icons/${MODULE_NAME}.png
-  Resources/UI/${MODULE_NAME}.ui
+  Resources/Icons/info_fill.svg
+  Resources/UI/${MODULE_NAME}Tester.ui
+  Resources/Hints.csv
   )
 
 #-----------------------------------------------------------------------------
